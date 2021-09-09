@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E
+
+}
+
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+ a:hover{
+   color: #EAF6F6;
+ }
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.intro-text {
+  width: 40%;
+  margin: auto;
+  padding: 0 0 100px;
+}
+
+
+
+.subtitle {
+  margin-top: 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.webdev-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.modeling-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 40px;
+  margin-top: 60px;
+}
+
+.profile {
+  border-radius: 35%;
+  padding-top: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.copyright {
+  margin: 0;
+  color: #EAF6F6;
+  padding: 50px 0;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.my-skills {
+  margin: 100px auto;
+}
+
+.touch {
+  margin: 100px auto 30px;
+}
+
+.touch-description {
+  margin: 30px auto 30px;
+  width: 40%;
+}
+
+.btn {
+  margin: 50px auto;
+}
+
+.btn {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  height: 11px;
+  line-height: 11px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 160px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #66BFBF;
+  border: solid #000000 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #11999E;
+  border: solid #337FED 0;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
